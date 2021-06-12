@@ -1,69 +1,64 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min-1.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./font-awesome/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
     <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        <div class="container">
+            <nav class="navbar fixed-top">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#edu">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#intern">Internships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
     </header>
-    <!-- End header -->
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Kevin Shah</h1>
+            <h2 style="margin: 20px;">Junior Year - Computer Engineering</h2>
+            <a href="https://drive.google.com/file/d/1t61Wlc5uz0L6eYF0bs9dQv9LqkmAJb2M/view?usp=sharing" class="btn-rounded-white" target="_blank">Download Resume</a>
+            <h2 style="margin: 20px;color:white">I am a <span id="letter"></span></h2>
         </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
 
         <div id="lead-down">
             <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                <i class="fa fa-chevron-down" aria-hidden="true" onclick="bott()"></i>
             </span>
         </div>
-        <!-- End #lead-down -->
+
     </div>
-    <!-- End #lead -->
 
     <div id="about">
         <div class="container">
@@ -73,207 +68,168 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        I am a junior undergraduate pursuing Computer Engineering from University of Mumbai, K.J. Somaiya College of Engineering. I have a great deal of interest in competitve programming and cybersecurity. I am also a committee head at KJSCE CodeCell, an official
+                        campus chapter of CodeChef. I love playing table tennis, chess and solving sudoku.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End #about -->
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
+    <!-- Education -->
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
+    <div class="education" id="edu" style="background: #f2f2f5">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>University of Mumbai, K.J.Somaiya College of Engineering</h3>
+            <span class="education-date">2018 - 2022</span>
+            <h4>Bachelor of Technology - Computer Engineering</h4>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    GPA: 9.49 (aggregate)
                 </li>
             </ul>
         </div>
-        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Pace Science Junior College</h3>
+            <span class="education-date">2016 - 2018</span>
+            <h4>12th Grade, HSC</h4>
+            <ul>
+                <li>
+                    Grade: 89.38%
+                </li>
+            </ul>
+        </div>
+
+        <div class="education-block">
+            <h3>Lokhandwala Foundation School</h3>
+            <span class="education-date">2006 - 2016</span>
+            <h4>10th Grade, ICSE</h4>
+            <ul>
+                <li>
+                    Grade: 97%
+                </li>
+            </ul>
+        </div>
     </div>
-    <!-- End #education -->
+
+    <!-- Internships -->
+
+    <div class="education" id="intern" style="background: white;">
+        <h2 class="heading">Internships</h2>
+        <div class="education-block">
+            <h3>K.J.Somaiya College of Engineering</h3>
+            <span class="education-date">July 2019 - Aug 2019</span>
+            <h4>Student Intern</h4>
+            <ul>
+                <li>
+                    Developed, in a team of 4, a rudimentary Python Tutorial website using Flask
+                </li>
+            </ul>
+        </div>
+
+        <div class="education-block">
+            <h3>Neebal Technologies</h3>
+            <span class="education-date">June 2019 - July 2019</span>
+            <h4>Software Intern</h4>
+            <ul>
+                <li>
+                    Developed a software simulator for CryptoCurrency trading using Java, SpringBoot and Ajax
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Projects -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Course Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/p1.jpg" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>College Buddy</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
+                            A multi-purpose Flask web app which simplifies and performs various administrative procedures of educational institutions. The key features of the application include attendance management and feedback management.</p>
+                        <a href="https://github.com/KevinShahgit/College-Buddy">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/p2.webp" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Investment Manager</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            An application developed using Python, Tkinter and MongoDB Atlas to keep track of various investments made by users. The types of investments include Bank accounts, Mutual funds and Fixed deposits.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/KevinShahgit/Investment-Manager">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/p3.jpeg" style="height:200px" />
+                    </div>
+                    <div class="project-info">
+                        <h3>MovieMate</h3>
+                        <p>
+                            A console based application (rudimentary file handling project in C) which displays key details about various movies.
+                        </p>
+                        <a href="https://github.com/KevinShahgit/MovieMate">View Project</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- End #projects -->
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
             <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Flask</li>
+            <li>SpringBoot</li>
+            <br>
+            <li>APIGEE</li>
+            <li>Tkinter</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
         </ul>
     </div>
-    <!-- End #skills -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
+    <div id="contact" style="color: white;">
+        <h2 class="heading">Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+            Reach out to me via email:
+            <a href="mailto:kevinshahonnet@gmail.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i> kevinshahonnet@gmail.com
+            </a>
         </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 YOUR NAME
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
+        <div id="profiles">
+            You can also reach out to me on:
+            <div id="handle">
+                <br>
+                <a href="https://github.com/KevinShahGit" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+                <a href="https://github.com/kjsce-codecell" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>Org-Github</a>
+                <a href="https://www.linkedin.com/in/reach-shah-kevin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
             </div>
+            <span class="top">
+                        <i class="fa fa-chevron-up" aria-hidden="true" onclick="topTo()"></i>
+            </span>
         </div>
-    </footer>
-    <!-- End footer -->
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+
 </body>
 
 </html>
