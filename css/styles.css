@@ -149,7 +149,7 @@ header.sticky {
 
 #lead-content h1,
 #lead-content h2 {
-    margin: 0
+    margin: 0;
 }
 
 #lead-content h1 {
@@ -165,7 +165,9 @@ header.sticky {
     color: #a0cfee;
     font-weight: 500;
     font-size: 2.25em;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+	white-space: nowrap;
+	margin: 20px;
 }
 
 #lead-down {
@@ -519,10 +521,18 @@ img {
         font-size: 1.5em
     }
     #lead-content h2 {
-        font-size: 1em
+        font-size: 0.85em
     }
     #lead-content a {
         font-size: 0.9em;
         padding: 5px 10px
     }
+}
+
+@media only screen and (max-width: 340px){
+	#lead-content h2 {
+		font-size: 0.8em;
+		margin: 20px 0px;
+		white-space: normal;
+	}
 }
