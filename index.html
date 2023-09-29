@@ -69,8 +69,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        I am a graduate student pursuing Cybersecurity Engineering from University of Southern California. I did my undergrad in computer engineering from University of Mumbai, K.J. Somaiya College of Engineering. My interest lie in cybersecurity and competitve programming. I love to explore and understand how things work under the hood. 
-						<br>Aside from the above mentioned things, I love playing table tennis and solving sudokus. 
+                        I am a Master's student at the University of Southern California pursuing a degree in Cybersecurity Engineering. I hold a Bachelor's degree in Computer Engineering from the University of Mumbai (India). My skills span various programming languages, tools, and technologies. My internships and projects have helped me gain experience in software development, cybersecurity, automation, web scraping, desktop, and web application development. My interests lie in software development, competitive programming, cybersecurity, and mathematics. I love to solve complex challenges using mathematics and computer science, exploring and understanding how things work under the hood. In my free time, I enjoy playing table tennis and solving sudokus. 
                     </p>
                 </div>
             </div>
@@ -120,15 +119,32 @@
     <div class="education" id="experience" style="background: #f2f2f5;">
         <h2 class="heading">Experience</h2>
 		<div class="education-block">
+            <h3>University of Southern California</h3>
+            <span class="education-date">Aug 2023 - Present</span>
+            <h4>Graduate Course Grader - Foundation and Policy for Information Security</h4>
+			<ul>
+                <li>
+                    Assess assignments, labs, and exams, covering concepts such as confidentiality and integrity policies, access control policies, TCB, and system evaluation criteria
+				</li>
+				<li>
+					Conduct office hours to assist students in clarifying doubts
+                </li>
+            </ul>
+        </div>
+		
+		<div class="education-block">
             <h3>Cipherics</h3>
             <span class="education-date">Sep 2021 - Oct 2021</span>
             <h4>Developer Intern</h4>
 			<ul>
                 <li>
-                    Developed a Python script for finding active hosts and their corresponding details (open ports, OS, etc.)
+                    Developed a Python script to identify active hosts on a network by calculating IP address ranges based on the machine’s subnet and asynchronously sending ping requests 
+				</li>
+				<li>
+					Researched and evaluated various libraries and tools, including scapy, for network scanning and reconnaissance, concluding Nmap as the most optimal solution
                 </li>
 				<li>
-					Researched different techniques to ascertain the aforementiond aspects of active machines (eventually, used Nmap for the task)
+					Integrated Nmap in the Python script to gather system information, such as open ports and OS
 				</li>
             </ul>
         </div>
@@ -139,24 +155,24 @@
             <h4>Software Intern</h4>
             <ul>
                 <li>
-                    Developed a software simulator for Cryptocurrency trading for trading website "Colodax" using Java, SpringBoot and Ajax
+                    Designed and developed a Java Spring Boot-based cryptocurrency trading simulator to stress test the <a href="https://colodax.com" target="_blank">"Colodax"</a> platform
                 </li>
 				<li>
-					Implemented complex randomized algorithms in a multi-threaded environment to perform real-time trading
+					Implemented multi-threaded algorithms for real-time trading and utilized Ajax for dynamically updating the order book
 				</li>
             </ul>
         </div>
 
         <div class="education-block">
-            <h3>K.J.Somaiya College of Engineering</h3>
+            <h3>K. J. Somaiya College of Engineering</h3>
             <span class="education-date">June 2019 - July 2019</span>
             <h4>Student Intern</h4>
             <ul>
                 <li>
-                    Deisgned and developed a Python tutorial website using Flask, HTML/CSS/JS
+                    Built an educational Python tutorial website using Flask, HTML, CSS, and Javascript, offering range of tutorials
                 </li>
 				<li>
-                    Explained fundamental CS and Python-specific concepts such as data structures, OOP principles, decorators, etc.
+                    Endorsed by professors, the website was integrated as a reading reference for freshman Python courses
                 </li>
             </ul>
         </div>
@@ -170,14 +186,14 @@
             <div class="row">
 				<div class="project shadow-large">
                     <div class="project-image">
-                        <img src="./images/fr.png"/>
+                        <img src="./images/collage.png"/>
                     </div>
                     <div class="project-info">
                         <h3>FoodRec</h3>
                         <p>
-                            A cross-platform mobile application that recommends multi-cuisine recipes based on ingreidents detected from an input image.
+                            A cross-platform mobile application that recommends recipes based on detected vegetables from user-provided images, using YOLOv4-tiny algorithm for ingredient detection, and GloVe word embeddings along with the Cosine Similarity algorithm to suggest recipes based on identified ingredients.
                         </p>
-                        <a href="https://github.com/amoghsinkar910/FoodRec-Meal-recipe-recommendation-system">View Project</a>
+                        <a href="https://github.com/kevin-26/FoodRec" target="_blank">View Project</a>
                     </div>
                 </div>
 				<div class="project shadow-large">
@@ -187,9 +203,9 @@
                     <div class="project-info">
                         <h3>Course Tracker</h3>
                         <p>
-                            This application was developed in a bid to help my undergrad batchmates. It is a single platform that shows students aggregated assignments and study resources shared by professors on multiple e-learning platforms. It uses web scraping and automation to gather the aforementioned data.
+							A web application streamlining students’ access to assignments and study resources across three e-learning platforms by creating a centralized repository. It leveraged web scraping to aggregate resources and assignments and utilized Selenium to automate browser interactions in headless mode, circumventing absence of APIs.
                         </p>
-                        <a href="https://github.com/kevin-26/CourseTracker">View Project</a>
+                        <a href="https://github.com/kevin-26/CourseTracker" target="_blank">View Project</a>
                     </div>
                 </div>
                 <div class="project shadow-large">
@@ -199,8 +215,9 @@
                     <div class="project-info">
                         <h3>College Buddy</h3>
                         <p>
-                            A multi-purpose Flask web app which simplifies and performs various administrative procedures of educational institutions. The key features of the application include attendance management and feedback management.</p>
-                        <a href="https://github.com/KevinShahgit/College-Buddy">View Project</a>
+                            A web application to digitize attendance tracking in my hometown’s educational institutions, replacing paper-based systems. The platform offered professors OTP-based attendance monitoring and feedback management.
+						</p>
+                        <a href="https://github.com/kevin-26/College-Buddy" target="_blank">View Project</a>
                     </div>
                 </div>
 
@@ -211,9 +228,9 @@
                     <div class="project-info">
                         <h3>Investment Manager</h3>
                         <p>
-                            A desktop application developed using Python and Tkinter to keep track of various investments made by users. The types of investments include Bank accounts, Mutual funds and Fixed deposits.
+                            A desktop application developed using Python and Tkinter to keep track of various investments made by users. Investments include Bank accounts, Mutual funds and Fixed Deposits.
                         </p>
-                        <a href="https://github.com/KevinShahgit/Investment-Manager">View Project</a>
+                        <a href="https://github.com/kevin-26/Investment-Manager" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
